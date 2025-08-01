@@ -58,3 +58,4 @@ O projeto foi desenvolvido com os seguintes objetivos:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/adrianoverissimo81/Challenge-Amigo-secreto.git
+   ```
