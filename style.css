@@ -102,12 +102,14 @@ body {
 
 .button-container {
     display: flex; /* Botões lado a lado */
-    gap: 2px;     /* Espaçamento entre os botões */
     justify-content: center; /* Centraliza os botões dentro do container */
     align-items: center; 
-    width: 100%;
-    max-width: 370px; /* Alinhado com a largura do input-wrapper */
-    margin-top: 30px; /* Espaço acima do grupo de botões */
+    gap: 2px;     /* Espaçamento entre os botões */
+    /*width: 100%;*/
+    /*max-width: 370px; /* Alinhado com a largura do input-wrapper */
+    margin-top: 1px; /* Espaço acima do grupo de botões */
+    flex-wrap: nowrap;
+    margin-right: 100px;
     
 }
 
@@ -214,9 +216,9 @@ ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 1px; 
+    /*margin-top: 1px; 
     margin-right: 1px;
-    margin-left: 1px;
+    margin-left: 1px;*/
     
 }
 
@@ -242,5 +244,51 @@ ul {
 .input-wrapper button:nth-of-type(2) {
     border-radius: 25px 0  0 25px;
     gap: 55px;
+}
+
+#listaDeAmigos {
+    list-style: none;
+    /*padding: 95px;*/
+    margin: 5px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
+    background-color: var(--color-white);
+    border: 2px solid #000;
+    border-radius: 12px;
+    margin-right: 145px;
+    min-height: 200px;
+    width: 100%;
+    max-width: 450px; /* Largura máxima para manter o layout */
+    
+    max-height: 350px; /* Limita a altura da lista */
+    overflow: auto; /* Adiciona rolagem vertical se necessário */
+    
+    
+    /* PROPRIEDADE CSS PARA CRIAR DUAS COLUNAS */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Cria exatamente 2 colunas de largura igual */
+    gap: 20px; /* Espaçamento entre as colunas e linhas */
+}
+
+/* Estilo para cada item da lista */
+#listaDeAmigos li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    break-inside: avoid;
     
 }
+
+#listaDeAmigos li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Nova classe para desabilitar visualmente a lista após o sorteio */
+#listaDeAmigos.disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+    pointer-events: none;
+}
+

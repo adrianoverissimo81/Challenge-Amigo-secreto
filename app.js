@@ -149,6 +149,7 @@ function sortearAmigo() {
 
     novoJogoBtn.disabled = false;
     sortearBtn.disabled = true;
+    listaDeAmigos.classList.add('disabled');
 
     atualizarEstadoBotoesAcao(false);
     nomeSendoEditado = null;
@@ -164,6 +165,7 @@ function novoJogo() {
 
     amigoInput.disabled = false;
     adicionarBtn.disabled = false;
+    listaDeAmigos.classList.remove('disabled');
 
     atualizarEstadoBotoesAcao(false);
     novoJogoBtn.disabled = true;
