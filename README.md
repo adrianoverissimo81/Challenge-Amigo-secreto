@@ -6,6 +6,8 @@
 
 Este é um projeto desenvolvido durante a **Formação ONE - Oracle Next Education + Alura**.
 
+---
+
 ## 💡 Descrição
 
 **Amigo Secreto** é uma aplicação web feita com **HTML**, **CSS** e **JavaScript** que simula um sorteio justo de amigo secreto. A interface é intuitiva e permite:
@@ -19,7 +21,7 @@ Este é um projeto desenvolvido durante a **Formação ONE - Oracle Next Educati
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Preview da Interface
 
 ### Tela inicial
 ![Tela inicial](./imagens/tela-inicial.png)
@@ -27,8 +29,13 @@ Este é um projeto desenvolvido durante a **Formação ONE - Oracle Next Educati
 ### Tela após o sorteio
 ![Sorteio realizado](./imagens/sorteio-realizado.png)
 
+---
+
+## 🎞️ Demonstração (GIF)
+
+> 🔄 *Em breve aqui será exibido um GIF demonstrando o funcionamento completo da aplicação!*
+
 <!--
-Você pode adicionar um GIF mostrando o funcionamento aqui futuramente.
 Exemplo:
 ![Demonstração do projeto](./imagens/demo.gif)
 -->
@@ -41,15 +48,17 @@ O projeto foi desenvolvido com os seguintes objetivos:
 
 - Consolidar conhecimentos de front-end com HTML, CSS e JavaScript
 - Criar uma aplicação interativa e funcional
-- Praticar a manipulação de arrays, eventos, e sorteio lógico
+- Praticar a manipulação de arrays, eventos e sorteio lógico
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
+</p>
 
 ---
 
@@ -58,4 +67,3 @@ O projeto foi desenvolvido com os seguintes objetivos:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/adrianoverissimo81/Challenge-Amigo-secreto.git
-   ```
