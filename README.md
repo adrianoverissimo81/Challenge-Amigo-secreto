@@ -24,10 +24,10 @@ Este é um projeto desenvolvido durante a **Formação ONE - Oracle Next Educati
 ## 🖼️ Preview da Interface
 
 ### Tela inicial
-![Tela inicial](./imagens/tela-inicial.png)
+![Tela inicial](C:\Users\Adriano\Downloads\challenge-amigo-secreto\assets/tela-inicial.png)
 
 ### Tela após o sorteio
-![Sorteio realizado](./imagens/sorteio-realizado.png)
+![Sorteio realizado](C:\Users\Adriano\Downloads\challenge-amigo-secreto\assets/sorteio-realizado.png)
 
 ---
 
