@@ -102,10 +102,11 @@ body {
 
 .button-container {
     display: flex; /* Botões lado a lado */
+    gap: 2px;     /* Espaçamento entre os botões */
     justify-content: center; /* Centraliza os botões dentro do container */
     align-items: center; 
     gap: 2px;     /* Espaçamento entre os botões */
-    /*width: 100%;*/
+
     /*max-width: 370px; /* Alinhado com a largura do input-wrapper */
     margin-top: 1px; /* Espaço acima do grupo de botões */
     flex-wrap: nowrap;
@@ -216,10 +217,6 @@ ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: background-color 0.3s ease;
-    /*margin-top: 1px; 
-    margin-right: 1px;
-    margin-left: 1px;*/
-    
 }
 
 .button-draw img {
