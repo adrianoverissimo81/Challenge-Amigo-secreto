@@ -218,4 +218,5 @@ if (novoJogoBtn) {
     novoJogoBtn.addEventListener('click', novoJogo);
 } else {
     console.error("Erro: Elemento com ID 'novoJogoBtn' (botão Novo Jogo) não encontrado.");
+    
 }
