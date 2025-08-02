@@ -4,7 +4,9 @@
 ![License MIT](https://img.shields.io/badge/license-MIT-green)
 ![GitHub Repo stars](https://img.shields.io/github/stars/adrianoverissimo81/Challenge-Amigo-secreto?style=social)
 
-Este é um projeto desenvolvido durante a **Formação ONE - Oracle Next Education + Alura**.
+## 🚧 Em Andamento
+
+Este projeto está em constante evolução. Novas funcionalidades e melhorias na experiência de usuário e acessibilidade estão sendo implementadas. Sua contribuição é bem-vinda!
 
 ---
 
@@ -24,7 +26,6 @@ Este é um projeto desenvolvido durante a **Formação ONE - Oracle Next Educati
 ## 🖼️ Preview da Interface
 
 ### Tela inicial
-!### Tela inicial
 ![Tela inicial](assets/tela-inicial.png)
 
 ### Tela após o sorteio
@@ -35,11 +36,6 @@ Este é um projeto desenvolvido durante a **Formação ONE - Oracle Next Educati
 ## 🎞️ Demonstração (GIF)
 
 > 🔄 *Em breve aqui será exibido um GIF demonstrando o funcionamento completo da aplicação!*
-
-<!--
-Exemplo:
-![Demonstração do projeto](./imagens/demo.gif)
--->
 
 ---
 
@@ -57,15 +53,26 @@ O projeto foi desenvolvido com os seguintes objetivos:
 
 | Tecnologias | Ícone |
 |-------------|-------|
-| HTML5       | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="24" /> |
-| CSS3        | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="24" /> |
-| JavaScript  | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="24" /> |
+| HTML5       | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="24" /> |
+| CSS3        | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="24" /> |
+| JavaScript  | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="24" /> |
 
+---
+
+## ♿ Acessibilidade
+
+O projeto está sendo desenvolvido com foco em acessibilidade para garantir que todos os usuários possam interagir com a aplicação. Estamos usando:
+
+- **HTML Semântico:** Estrutura clara e significativa para leitores de tela.
+- **`aria-labels`:** Fornece descrições adicionais para elementos interativos.
+- **Foco e Navegação por Teclado:** Garantindo que todas as funcionalidades possam ser usadas sem um mouse.
+
+A meta é criar uma experiência completa e inclusiva para todos os participantes do sorteio.
 
 ---
 
 ## 📦 Como usar o projeto
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/adrianoverissimo81/Challenge-Amigo-secreto.git
+   ```bash
+   git clone [https://github.com/adrianoverissimo81/Challenge-Amigo-secreto.git](https://github.com/adrianoverissimo81/Challenge-Amigo-secreto.git)
